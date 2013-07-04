@@ -1,0 +1,47 @@
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+
+
+Ontology: <http://www.example.org/demo.owl>
+
+
+ObjectProperty: <http://www.example.org/demo.owl#works-in>
+
+    
+Class: owl:Thing
+
+    
+Class: <http://www.example.org/demo.owl#Person>
+
+    SubClassOf: 
+        owl:Thing
+    
+    
+Class: <http://www.example.org/demo.owl#City>
+
+    
+Class: <http://www.example.org/demo.owl#Scientist>
+
+    SubClassOf: 
+        <http://www.example.org/demo.owl#Person>
+    
+    
+Individual: <http://www.example.org/demo.owl#Paris>
+
+    Types: 
+        <http://www.example.org/demo.owl#City>
+    
+    
+Individual: <http://www.example.org/demo.owl#John>
+
+    Types: 
+        <http://www.example.org/demo.owl#Scientist>
+    
+    Facts:  
+     <http://www.example.org/demo.owl#works-in>  <http://www.example.org/demo.owl#Paris>
+    
+    

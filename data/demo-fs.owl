@@ -1,0 +1,21 @@
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.example.org/demo.owl>
+
+Declaration(Class(<http://www.example.org/demo.owl#City>))
+Declaration(Class(<http://www.example.org/demo.owl#Person>))
+SubClassOf(<http://www.example.org/demo.owl#Person> owl:Thing)
+Declaration(Class(<http://www.example.org/demo.owl#Scientist>))
+SubClassOf(<http://www.example.org/demo.owl#Scientist> <http://www.example.org/demo.owl#Person>)
+Declaration(ObjectProperty(<http://www.example.org/demo.owl#works-in>))
+Declaration(NamedIndividual(<http://www.example.org/demo.owl#John>))
+ClassAssertion(<http://www.example.org/demo.owl#Scientist> <http://www.example.org/demo.owl#John>)
+ObjectPropertyAssertion(<http://www.example.org/demo.owl#works-in> <http://www.example.org/demo.owl#John> <http://www.example.org/demo.owl#Paris>)
+Declaration(NamedIndividual(<http://www.example.org/demo.owl#Paris>))
+ClassAssertion(<http://www.example.org/demo.owl#City> <http://www.example.org/demo.owl#Paris>)
+)
