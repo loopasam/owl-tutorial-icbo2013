@@ -1,12 +1,9 @@
-# SWAT4LS Tutorial 2012 - OWL
+# Tutorial ICBO 2013 - Knowledge manipulation using OWL and reasoners for drug-discovery
 
-Files and code for the tutorial on OWL ('Drug-discovery knowledge integration and analysis using OWL and reasoners')
- at the SWAT4LS 2012 workshop (Paris).
+Files and slides from the tutorial.
 
-The zip file with all the material (presentation and data) is located there:
+The zip file `tutorial.zip` contains all the material. The OWL files mentioned in the slides are available in the folder `knowledge-bases`.
 
-https://github.com/loopasam/SWAT4LS/raw/master/tutorial.zip
-
-If you have further questions, please DO send it to me: croset@ebi.ac.uk
+If you have further questions, please send it to me: croset@ebi.ac.uk or use StackOverflow: http://stackoverflow.com/questions/tagged/owl
 
 Samuel
